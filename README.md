@@ -155,23 +155,23 @@ models/
 Ignored via .gitignore.
 
 # Applications
-Network Intrusion Detection
-Cybersecurity monitoring
-Research on ensemble learning
-Academic ML projects
-Benchmarking IDS models
+1. Network Intrusion Detection
+2. Cybersecurity monitoring
+3. Research on ensemble learning
+4. Academic ML projects
+5. Benchmarking IDS models
 # Technologies Used
-Python
-Scikit-learn
-XGBoost
-LightGBM
-Imbalanced-Learn
-Pandas, NumPy
-Joblib
+1. Python
+2. Scikit-learn
+3. XGBoost
+4. LightGBM
+5. Imbalanced-Learn
+6. Pandas, NumPy
+7. Joblib
 # Future Enhancements
-Real-time packet capture integration
-Deep learning models (LSTM / Autoencoders)
-Live dashboard for traffic monitoring
-Deployment using Flask / FastAPI
-Explainable AI (SHAP)
+1. Real-time packet capture integration
+2. Deep learning models (LSTM / Autoencoders)
+3. Live dashboard for traffic monitoring
+4. Deployment using Flask / FastAPI
+5. Explainable AI (SHAP)
 
