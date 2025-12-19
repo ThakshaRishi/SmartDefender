@@ -10,12 +10,12 @@ Advanced feature engineering for network traffic
 
 Handles class imbalance using SMOTE
 
-# Stacked Ensemble Model:
+Stacked Ensemble Model:
 
-XGBoost
-LightGBM
-Random Forest
-Logistic Regression (Meta-Learner)
+1. XGBoost
+2. LightGBM
+3. Random Forest
+4. Logistic Regression (Meta-Learner)
 Threshold optimization for improved detection
 
 Robust preprocessing and feature selection
@@ -79,28 +79,28 @@ Packet statistics
 Byte flow metrics
 Timing and jitter attributes
 
- # Target Variable:
+ Target Variable:
 
-0 → Normal Traffic
-1 → Attack Traffic
+1. 0 → Normal Traffic
+2. 1 → Attack Traffic
 #  Installation
 1️1. Clone the Repository
 ```
 git clone https://github.com/ThakshaRishi/SmartDefender
-cd Smartdefender
+cd SmartDefender
 ```
 2. Create Virtual Environment
 ```
 python -m venv venv
 ```
-# Activate:
-
+Activate:
+```
 # Windows
-```
+
 venv\Scripts\activate
-```
+
 # Linux / Mac
-```
+
 source venv/bin/activate
 ```
 3. Install Dependencies
@@ -115,30 +115,33 @@ python train_model.py
 ```
 The pipeline performs:
 
-Data loading
-Feature engineering
-Scaling and feature selection
-SMOTE balancing
-Ensemble training
-Threshold optimization
-Evaluation
-Model & metric saving
+1. Data loading
+2. Feature engineering
+3. Scaling and feature selection
+4. SMOTE balancing
+5. Ensemble training
+6. Threshold optimization
+7. Evaluation
+8. Model & metric saving
 # Evaluation Metrics
 The system evaluates the following metrics:
 
-Accuracy
-Precision
-Recall
-F1-Score
-AUC-ROC
-# Threshold optimization improves classification reliability.
+1. Accuracy
+2. Precision
+3. Recall
+4. F1-Score
+5. AUC-ROC
+
+Threshold optimization improves classification reliability.
 
 # Sample Output
+```
 Accuracy   : 94.99%
 Precision  : 96.15%
 Recall     : 96.00%
 F1 Score   : 96.08%
-AUC-ROC    : 99.21% 
+AUC-ROC    : 99.21%
+```
 Results may vary slightly depending on system and dataset splits.
 
 # Model Storage Policy
@@ -146,7 +149,9 @@ To comply with GitHub size limits:
 
 Trained models (.pkl) are not committed
 Models are saved locally under:
+```
 models/
+```
 Ignored via .gitignore.
 
 # Applications
