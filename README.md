@@ -175,8 +175,3 @@ Live dashboard for traffic monitoring
 Deployment using Flask / FastAPI
 Explainable AI (SHAP)
 
-
-📜 License
-This project is intended for academic and research purposes only. Not for commercial deployment without permission.
-
-⭐ If you like this project, consider starring the repository!
