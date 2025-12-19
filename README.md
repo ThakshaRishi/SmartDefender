@@ -84,7 +84,7 @@ Timing and jitter attributes
 1. 0 → Normal Traffic
 2. 1 → Attack Traffic
 #  Installation
-1️1. Clone the Repository
+1. Clone the Repository
 ```
 git clone https://github.com/ThakshaRishi/SmartDefender
 cd SmartDefender
